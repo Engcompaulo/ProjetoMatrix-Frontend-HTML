@@ -30,16 +30,16 @@
             <div class="row">
               <div class="col-md-6 mb-3">
                 <label for="firstName">Nome</label>
-                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="nome" placeholder="" value="" required="">
                 <div class="invalid-feedback">
-                  Valid first name is required.
+                 Campo vazio, deve ser preenchido.
                 </div>
               </div>
               <div class="col-md-6 mb-3">
                 <label for="lastName">Sobrenome</label>
-                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <input type="text" class="form-control" id="sobrenome" placeholder="" value="" required="">
                 <div class="invalid-feedback">
-                  Valid last name is required.
+                  Campo vazio, deve ser preenchido.
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@
               <label for="email">Email</label>
               <input type="email" class="form-control" id="email" placeholder="seuemail@examplo.com">
               <div class="invalid-feedback">
-                Please enter a valid email address for shipping updates.
+                Campo vazio, deve ser preenchido.
               </div>
             </div>
          <!--   <hr class="mb-4"> -->
@@ -57,7 +57,7 @@
                 <input type="text" class="form-control" id="cc-name" placeholder="" required="">
                 <!--<small class="text-muted">Full name as displayed on card</small>-->
                 <div class="invalid-feedback">
-                  Name on card is required
+                  Campo vazio, deve ser preenchido
                 </div>
               </div>           
             </div>
@@ -66,19 +66,19 @@
               <label for="cc-number">Nota</label>
               <input type="text" class="form-control" id="cc-number" placeholder="" required="">
               <div class="invalid-feedback">
-                Credit card number is required
+                Campo vazio, deve ser preenchido
               </div>
           </div>
           </div>
             <div class="row">                        
             </div>
             <hr class="mb-4">
-            <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Salvar</button>
           </form>
         </div>
       </div>
       <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">© 2017-2018 Company Name</p>
+        <p class="mb-1">Projeto Matrix</p>
         <ul class="list-inline">
           <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.1/examples/checkout/#">Privacy</a></li>
           <li class="list-inline-item"><a href="https://getbootstrap.com/docs/4.1/examples/checkout/#">Terms</a></li>
@@ -95,6 +95,7 @@
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/holder.min.js"></script>
+    <script src="./js/amazenamento.js"></script>
     <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
       (function() {
